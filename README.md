@@ -1,11 +1,8 @@
-# RssFeed Scraper API
+# Vercel Express API starter
 
 ## Description
 
-API that scrapes RSS feeds and returns the results in JSON format.
-
-- This is structured as an Express app deployable to [Vercel](https://vercel.com/).
-- [Frontend to consume this API](https://auto-blog-sigma.vercel.app/)
+Starter point for a vercel deployable API server.
 
 ## Includes API Server utilities:
 
@@ -32,31 +29,21 @@ API that scrapes RSS feeds and returns the results in JSON format.
   - ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
 - [typescript-eslint](https://typescript-eslint.io/)
   - Tooling which enables ESLint to support TypeScript.
-- [jest](https://www.npmjs.com/package/jest)
-  - Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
-- [supertest](https://www.npmjs.com/package/supertest)
-  - HTTP assertions made easy via superagent.
 
 ## Setup
 
-```
+```sh
 npm install
 ```
 
 ## Lint
 
-```
+```sh
 npm run lint
-```
-
-## Test
-
-```
-npm run test
 ```
 
 ## Development
 
-```
+```sh
 npm run dev
 ```
